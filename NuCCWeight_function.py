@@ -1411,8 +1411,8 @@ def make_stacked_histo_MCC8_pub(cut,variable,weight,title,xstart,xend,xbins,file
         h_data_func.SetMaximum(h_data_func.GetMaximum()*1.5)
     else:
         h_data_func.SetMaximum(h_data_func.GetMaximum()*1.3)
-        #h_data_func.SetMinimum(1.0/h_data_func.GetMaximum()/1.3)
-    h_data_func.SetMaximum(16000)
+        h_data_func.SetMinimum(1.0/h_data_func.GetMaximum()/1.3)
+    #h_data_func.SetMaximum(16000)
     
     h_data_func.GetYaxis().SetLabelSize(0.06);
     h_data_func.GetYaxis().SetTitleSize(0.06);
