@@ -26,10 +26,10 @@ Predictions by different generators: FF_generators.root
 
 The most important stuff is in My_measurements and in result. Hopefully you do not need to touch the other parts...
 
-###The recommended procedure is to (pre)calculate the uncertainties using e.g 'example.py' which gives all the fractional covariances as an output and store them in a folder per each generator.
-###Then, use the Event_Rate_Model in results/ as the ploting script which gives all the needed histograms for the 2D result.
-###To run these 2 scripts, no data input is needed but the precalculated histograms in My_Measurment/.
-###So therefore, it is best to start running e.g example.py and then use the others only if needed...
+### The recommended procedure is to (pre)calculate the uncertainties using e.g 'example.py' which gives all the fractional covariances as an output and store them in a folder per each generator.
+### Then, use the Event_Rate_Model in results/ as the ploting script which gives all the needed histograms for the 2D result.
+### To run these 2 scripts, no data input is needed but the precalculated histograms in My_Measurment/.
+### So therefore, it is best to start running e.g example.py and then use the others only if needed...
 
 The structure is given as follows:
 
